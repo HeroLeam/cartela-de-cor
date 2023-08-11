@@ -35,6 +35,7 @@ var listaColecoes = [
       "cm739",
       "cz100",
       "cz276",
+      "cz282",
       "cz364",
       "es176",
       "lr001",
