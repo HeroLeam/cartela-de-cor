@@ -630,12 +630,20 @@
   background-color: #ed9ca8;
 }
 
+.RS204 {
+  background-color: #e04f81;
+}
+
 .RS231 {
   background-color: #d1969a;
 }
 
 .RS232 {
   background-color: #df88b7;
+}
+
+.RS245 {
+  background-color: #f1a9cc;
 }
 
 .RS252 {
@@ -884,6 +892,10 @@
 
 .VD016 {
   background-color: #d5e525;
+}
+
+.VD067 {
+  background-color: #4f7c74;
 }
 
 .VD107 {
