@@ -4,6 +4,7 @@ var listaColecoes = [
     codigos: [
       "am009",
       "az014",
+      "bc001",
       "rs015",
       "rs016",
       "rs017",
