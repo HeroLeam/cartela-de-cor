@@ -18,6 +18,10 @@
   background-color: #ffc66e;
 }
 
+.AM006 {
+  background-color: #c3d363;
+}
+
 .AM007 {
   background-color: #f6e199;
 }
@@ -66,6 +70,10 @@
   background-color: #fdc04e;
 }
 
+.AM316 {
+  background-color: #ffff99;
+}
+
 .AM338 {
   background-color: #d08344;
 }
@@ -76,6 +84,10 @@
 
 .AM391 {
   background-color: #efdc76;
+}
+
+.AM408 {
+  background-color: #e4bf45;
 }
 
 .AM448 {
@@ -96,6 +108,10 @@
 
 .AM493 {
   background-color: #d2b04c;
+}
+
+.AM504 {
+  background-color: #dae55c;
 }
 
 .AM517 {
@@ -210,8 +226,24 @@
   background-color: #4abbd5;
 }
 
+.AZ395 {
+  background-color: #262f40;
+}
+
 .AZ398 {
   background-color: #0173b5;
+}
+
+.AZ418 {
+  background-color: #5b7ebd;
+}
+
+.AZ423 {
+  background-color: #1e5da0;
+}
+
+.AZ435 {
+  background-color: #87c2d4;
 }
 
 .AZ441 {
@@ -242,8 +274,24 @@
   background-color: #015871;
 }
 
+.AZ483 {
+  background-color: #00838c;
+}
+
 .AZ485 {
   background-color: #30658e;
+}
+
+.AZ489 {
+  background-color: #4381bf;
+}
+
+.AZ502 {
+  background-color: #233658;
+}
+
+.AZ503 {
+  background-color: #00819d;
 }
 
 .AZ511 {
@@ -296,6 +344,14 @@
 
 .BD451 {
   background-color: #65242e;
+}
+
+.BD495 {
+  background-color: #65242e;
+}
+
+.BD499 {
+  background-color: #402323;
 }
 
 .BC001 {
@@ -474,8 +530,16 @@
   background-color: #a14d3a;
 }
 
+.LR496 {
+  background-color: #d96c75;
+}
+
 .LR505 {
   background-color: #ff9f40;
+}
+
+.LR518 {
+  background-color: #cc6069;
 }
 
 .LR541 {
@@ -546,8 +610,12 @@
   background-color: #323137;
 }
 
+.MC481 {
+  background-color: #ced3d9;
+}
+
 .MC501 {
-  background-color: #323137;
+  background-color: #c5c6c7;
 }
 
 .MC506 {
@@ -560,6 +628,10 @@
 
 .RS001 {
   background-color: #ec9abe;
+}
+
+.RS002 {
+  background-color: #eed4d9;
 }
 
 .RS003 {
@@ -694,12 +766,20 @@
   background-color: #fc8f9c;
 }
 
+.RS417 {
+  background-color: #e4455e;
+}
+
 .RS425 {
   background-color: #d32e5e;
 }
 
 .RS426 {
   background-color: #d02d71;
+}
+
+.RS427 {
+  background-color: #e04f81;
 }
 
 .RS428 {
@@ -730,6 +810,10 @@
   background-color: #c79685;
 }
 
+.RS505 {
+  background-color: #e5cfcf;
+}
+
 .RS507 {
   background-color: #ed7a9e;
 }
@@ -752,6 +836,18 @@
 
 .RS516 {
   background-color: #f8d7dd;
+}
+
+.RS520 {
+  background-color: #f5d7f0;
+}
+
+.RS522 {
+  background-color: #f291a1;
+}
+
+.RS523 {
+  background-color: #f26db0;
 }
 
 .RS539 {
@@ -950,12 +1046,20 @@
   background-color: #81d7d3;
 }
 
+.VD419 {
+  background-color: #009b75;
+}
+
 .VD420 {
   background-color: #81d7d3;
 }
 
 .VD433 {
   background-color: #a0daa9;
+}
+
+.VD434 {
+  background-color: #495e35;
 }
 
 .VD445 {
@@ -974,12 +1078,28 @@
   background-color: #afddcc;
 }
 
+.VD482 {
+  background-color: #c2f2ea;
+}
+
 .VD488 {
   background-color: #009b8c;
 }
 
+.VD490 {
+  background-color: #00585e;
+}
+
 .VD498 {
   background-color: #007c7a;
+}
+
+.VD521 {
+  background-color: #a1e5b2;
+}
+
+.VD526 {
+  background-color: #29332d;
 }
 
 .VD538 {
@@ -1044,4 +1164,8 @@
 
 .VM449 {
   background-color: #aa0a26;
+}
+
+.VM494 {
+  background-color: #962d49;
 }
