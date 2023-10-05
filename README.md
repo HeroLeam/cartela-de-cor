@@ -1,4 +1,22 @@
-# cartela-de-cor
- Site para consultar cartela de cores
+# Cartela de cores
 
-Primeira versão.
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/HeroLeam/cartela-de-cor/blob/main/LICENSE) 
+
+# Sobre o projeto
+
+Site simples para consultar cartela de cores.
+
+## Layout web
+![Web 1]()
+
+# Tecnologias utilizadas
+## Front end
+- HTML
+- CSS
+- JavaScript
+
+# Autor
+
+Thiago Leoni Amaral
+
+https://linktr.ee/heroleam
