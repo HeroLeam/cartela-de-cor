@@ -1,23 +1,37 @@
 body {
   font-family: "Roboto", sans-serif;
-  margin: 0 auto;
+  margin: 0;
   background-color: #f2f2f2;
-  font-weight: 400;
   display: flex;
   flex-direction: column;
 }
 
 header {
+  background-color: #ccc;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.10);
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  font-weight: 500;
+}
+
+.wrapper {
+  margin-top: 10px;
+  display: flex;
 }
 
 nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin: 10px 10px 0 20px;
+}
+
+nav>div>select,
+nav>div>p,
+nav>div>input {
+  width: 250px;
 }
 
 main {
-  align-items: center;
+  flex-grow: 1;
 }
 
 footer {
@@ -26,41 +40,19 @@ footer {
   margin-top: auto;
 }
 
-h1 {
-  padding: 15px;
-}
-
-.titulo {
-  padding: 15px;
+.painel-contador {
   text-align: center;
 }
 
-.painel-contador {
-  background-color: #fff;
-  display: flex;
-  align-items: center;
-  margin: 10px auto;
-  padding: 8px;
-  border-radius: 4px;
-  border: 1px solid #ccc;
-  font-size: 16px;
-  width: 230px;
-}
-
-#contador {
-  font-weight: bold;
+#contador{
+  font-weight: 700;
 }
 
 .lista-cartela {
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
-  justify-content: center;
   padding: 10px;
-}
-
-.codigo {
-  padding: 15px;
 }
 
 .filtro-container {
@@ -69,7 +61,7 @@ h1 {
 }
 
 .filtro-descricao {
-  font-weight: bold;
+  font-weight: 500;
 }
 
 #filtro-cores {
@@ -79,6 +71,7 @@ h1 {
   border: 1px solid #ccc;
   font-size: 16px;
 }
+
 #filtro-colecoes {
   margin: 10px;
   padding: 8px;
@@ -95,13 +88,19 @@ h1 {
 .limpar-filtros {
   font-size: 14px;
   cursor: pointer;
-  background-color: #fff;
+  background-color: hsl(200, 100%, 95%);
   box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.01);
   margin: 10px;
   padding: 8px;
   border-radius: 4px;
   border: 1px solid #ccc;
   padding: 8px;
+}
+
+.material-symbols-outlined {
+  font-size: 14px;
+  vertical-align: middle;
+  margin-left: 5px;
 }
 
 .limpar-filtros:hover {
@@ -118,8 +117,8 @@ h1 {
 
 .mensagem-erro {
   display: none;
-  justify-content: center; /* Centralizar horizontalmente */
-  align-items: center; /* Centralizar verticalmente */
+  justify-content: center;
+  align-items: center;
   color: red;
   font-weight: bold;
   font-size: 22px;
@@ -137,12 +136,19 @@ h1 {
   position: relative;
 }
 
+
+.codigo {
+  padding: 15px;
+  font-weight: 500;
+}
+
 .linha {
   width: 100%;
   height: 30px;
   background-color: #fff;
   box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.05);
   font-size: 14px;
+  font-weight: 400;
   letter-spacing: 1px;
   border-radius: 10px;
   padding: 15px;
@@ -229,14 +235,17 @@ h1 {
     opacity: 0;
     transform: translateY(0);
   }
+
   20% {
     opacity: 1;
     transform: translateY(-10px);
   }
+
   80% {
     opacity: 1;
     transform: translateY(-10px);
   }
+
   100% {
     opacity: 0;
     transform: translateY(100%);
