@@ -7,7 +7,7 @@
 Site simples para consultar cartela de cores.
 
 ## Layout web
-![Web 1]()
+![Web 1](./src/assets/demo.gif)
 
 # Tecnologias utilizadas
 ## Front end
