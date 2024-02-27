@@ -1,6 +1,6 @@
 # Cartela de cores
 
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/HeroLeam/cartela-de-cor/blob/main/LICENSE) 
+[![NPM](https://img.shields.io/npm/l/react)](./LICENSE) 
 
 # Sobre o projeto
 
@@ -17,6 +17,6 @@ Site simples para consultar cartela de cores.
 
 # Autor
 
-Thiago Leoni Amaral
+Thiago Leoni Amaral aka Heroleam
 
-https://linktr.ee/heroleam
+https://heroleam.github.io/herofield
