@@ -52,6 +52,7 @@
                 <select id="filtro-colecoes" onchange="filtrar()">
                     <option value="todas">Uso</option>
                     <option value="estamparia">Estamparia</option>
+                    <option value="inv25">Inverno 25</option>
                     <option value="av24-25">Alto Verão 24-25</option>
                     <option value="pv24">Primavera 24</option>
                     <option value="iv24">Inverno 24</option>
@@ -82,10 +83,207 @@
         <main>
             <div class="lista-cartela">
                 <div id="mensagem-erro" class="mensagem-erro">Nenhuma cor encontrada.</div>
+
+                <div class="cartela AZNOVO">
+                    <h2 class="codigo">AZNOVO</h2>
+                    <div class="linha"><span class="descricao">Cor:&nbsp;</span>Azul</div>
+                    <div class="linha"><span class="descricao">Descrição:&nbsp;</span>Petróleo</div>
+                    <div class="linha"><span class="descricao">Cod. Base:&nbsp;</span>
+                        <div id="copiar">19-4324</div>
+                        <button class="btn-copiar">
+                            <img class="iconecopiar" src="./src/img/iconeCopiar.png" alt="" />
+                        </button>
+                    </div>
+                    <div class="linha"><span class="descricao">RGB:&nbsp;</span>32 - 73 - 91
+                    </div>
+                    <div class="linha"><span class="descricao">Hex:&nbsp;</span>#
+                        <div id="copiar">20495b</div>
+                        <button class="btn-copiar">
+                            <img class="iconecopiar" src="./src/img/iconeCopiar.png" alt="" />
+                        </button>
+                    </div>
+                    <button class="btn-salvar" onclick="gerarimagem(this)">
+                        <img class="iconesalvar" src="./src/img/iconeSalvar.png" alt="">
+                    </button>
+                </div>
+
+                <div class="cartela LRNOVO">
+                    <h2 class="codigo">LRNOVO</h2>
+                    <div class="linha"><span class="descricao">Cor:&nbsp;</span>Laranja</div>
+                    <div class="linha"><span class="descricao">Descrição:&nbsp;</span>Pitange</div>
+                    <div class="linha"><span class="descricao">Cod. Base:&nbsp;</span>
+                        <div id="copiar">18-1561</div>
+                        <button class="btn-copiar">
+                            <img class="iconecopiar" src="./src/img/iconeCopiar.png" alt="" />
+                        </button>
+                    </div>
+                    <div class="linha"><span class="descricao">RGB:&nbsp;</span>218 - 50 - 28
+                    </div>
+                    <div class="linha"><span class="descricao">Hex:&nbsp;</span>#
+                        <div id="copiar">da321c</div>
+                        <button class="btn-copiar">
+                            <img class="iconecopiar" src="./src/img/iconeCopiar.png" alt="" />
+                        </button>
+                    </div>
+                    <button class="btn-salvar" onclick="gerarimagem(this)">
+                        <img class="iconesalvar" src="./src/img/iconeSalvar.png" alt="">
+                    </button>
+                </div>
+
+                <div class="cartela LRNEONNOVO">
+                    <h2 class="codigo">LRNEONNOVO</h2>
+                    <div class="linha"><span class="descricao">Cor:&nbsp;</span>Laranja</div>
+                    <div class="linha"><span class="descricao">Descrição:&nbsp;</span>Crazy Neont</div>
+                    <div class="linha"><span class="descricao">Cod. Base:&nbsp;</span>
+                        <div id="copiar">NEON</div>
+                        <button class="btn-copiar">
+                            <img class="iconecopiar" src="./src/img/iconeCopiar.png" alt="" />
+                        </button>
+                    </div>
+                    <div class="linha"><span class="descricao">RGB:&nbsp;</span>255 - 204 - 178
+                    </div>
+                    <div class="linha"><span class="descricao">Hex:&nbsp;</span>#
+                        <div id="copiar">ffccb2</div>
+                        <button class="btn-copiar">
+                            <img class="iconecopiar" src="./src/img/iconeCopiar.png" alt="" />
+                        </button>
+                    </div>
+                    <button class="btn-salvar" onclick="gerarimagem(this)">
+                        <img class="iconesalvar" src="./src/img/iconeSalvar.png" alt="">
+                    </button>
+                </div>
+
+                <div class="cartela MRNOVO">
+                    <h2 class="codigo">MRNOVO</h2>
+                    <div class="linha"><span class="descricao">Cor:&nbsp;</span>Marrom</div>
+                    <div class="linha"><span class="descricao">Descrição:&nbsp;</span>Caramelo</div>
+                    <div class="linha"><span class="descricao">Cod. Base:&nbsp;</span>
+                        <div id="copiar">16-1439</div>
+                        <button class="btn-copiar">
+                            <img class="iconecopiar" src="./src/img/iconeCopiar.png" alt="" />
+                        </button>
+                    </div>
+                    <div class="linha"><span class="descricao">RGB:&nbsp;</span>195 - 124 - 84
+                    </div>
+                    <div class="linha"><span class="descricao">Hex:&nbsp;</span>#
+                        <div id="copiar">c37c54</div>
+                        <button class="btn-copiar">
+                            <img class="iconecopiar" src="./src/img/iconeCopiar.png" alt="" />
+                        </button>
+                    </div>
+                    <button class="btn-salvar" onclick="gerarimagem(this)">
+                        <img class="iconesalvar" src="./src/img/iconeSalvar.png" alt="">
+                    </button>
+                </div>
+
+                <div class="cartela RSNOVO1">
+                    <h2 class="codigo">RSNOVO1</h2>
+                    <div class="linha"><span class="descricao">Cor:&nbsp;</span>Rosa</div>
+                    <div class="linha"><span class="descricao">Descrição:&nbsp;</span>Charlotte</div>
+                    <div class="linha"><span class="descricao">Cod. Base:&nbsp;</span>
+                        <div id="copiar">17-2127</div>
+                        <button class="btn-copiar">
+                            <img class="iconecopiar" src="./src/img/iconeCopiar.png" alt="" />
+                        </button>
+                    </div>
+                    <div class="linha"><span class="descricao">RGB:&nbsp;</span>222 - 91 - 140
+                    </div>
+                    <div class="linha"><span class="descricao">Hex:&nbsp;</span>#
+                        <div id="copiar">de5b8c</div>
+                        <button class="btn-copiar">
+                            <img class="iconecopiar" src="./src/img/iconeCopiar.png" alt="" />
+                        </button>
+                    </div>
+                    <button class="btn-salvar" onclick="gerarimagem(this)">
+                        <img class="iconesalvar" src="./src/img/iconeSalvar.png" alt="">
+                    </button>
+                </div>
+
+                <div class="cartela RSNOVO2">
+                    <h2 class="codigo">RSNOVO2</h2>
+                    <div class="linha"><span class="descricao">Cor:&nbsp;</span>Rosa</div>
+                    <div class="linha"><span class="descricao">Descrição:&nbsp;</span>Polly</div>
+                    <div class="linha"><span class="descricao">Cod. Base:&nbsp;</span>
+                        <div id="copiar">17-2627</div>
+                        <button class="btn-copiar">
+                            <img class="iconecopiar" src="./src/img/iconeCopiar.png" alt="" />
+                        </button>
+                    </div>
+                    <div class="linha"><span class="descricao">RGB:&nbsp;</span>206 - 94 - 154
+                    </div>
+                    <div class="linha"><span class="descricao">Hex:&nbsp;</span>#
+                        <div id="copiar">ce5e9a</div>
+                        <button class="btn-copiar">
+                            <img class="iconecopiar" src="./src/img/iconeCopiar.png" alt="" />
+                        </button>
+                    </div>
+                    <button class="btn-salvar" onclick="gerarimagem(this)">
+                        <img class="iconesalvar" src="./src/img/iconeSalvar.png" alt="">
+                    </button>
+                </div>
+
+                <div class="cartela RSNOVO3">
+                    <h2 class="codigo">RSNOVO3</h2>
+                    <div class="linha"><span class="descricao">Cor:&nbsp;</span>Rosa</div>
+                    <div class="linha"><span class="descricao">Descrição:&nbsp;</span>Lips</div>
+                    <div class="linha"><span class="descricao">Cod. Base:&nbsp;</span>
+                        <div id="copiar">18-1630</div>
+                        <button class="btn-copiar">
+                            <img class="iconecopiar" src="./src/img/iconeCopiar.png" alt="" />
+                        </button>
+                    </div>
+                    <div class="linha"><span class="descricao">RGB:&nbsp;</span>173 - 94 - 94
+                    </div>
+                    <div class="linha"><span class="descricao">Hex:&nbsp;</span>#
+                        <div id="copiar">ad5e5e</div>
+                        <button class="btn-copiar">
+                            <img class="iconecopiar" src="./src/img/iconeCopiar.png" alt="" />
+                        </button>
+                    </div>
+                    <button class="btn-salvar" onclick="gerarimagem(this)">
+                        <img class="iconesalvar" src="./src/img/iconeSalvar.png" alt="">
+                    </button>
+                </div>
+
+                <div class="cartela VDNOVO">
+                    <h2 class="codigo">VDNOVO</h2>
+                    <div class="linha"><span class="descricao">Cor:&nbsp;</span>Verde</div> 
+                    <div class="linha"><span class="descricao">Descrição:&nbsp;</span>Coentro</div>
+                    <div class="linha"><span class="descricao">Cod. Base:&nbsp;</span>
+                        <div id="copiar">18-6011</div>
+                        <button class="btn-copiar">
+                            <img class="iconecopiar" src="./src/img/iconeCopiar.png" alt="" />
+                        </button>
+                    </div>
+                    <div class="linha"><span class="descricao">RGB:&nbsp;</span>83 - 102 - 92
+                    </div>
+                    <div class="linha"><span class="descricao">Hex:&nbsp;</span>#
+                        <div id="copiar">53665c</div>
+                        <button class="btn-copiar">
+                            <img class="iconecopiar" src="./src/img/iconeCopiar.png" alt="" />
+                        </button>
+                    </div>
+                    <button class="btn-salvar" onclick="gerarimagem(this)">
+                        <img class="iconesalvar" src="./src/img/iconeSalvar.png" alt="">
+                    </button>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
                 <div class="cartela AM001">
                     <h2 class="codigo">AM001</h2>
                     <div class="linha"><span class="descricao">Cor:&nbsp;</span>Amarelo</div>
-                    <div class="linha"><span class="descricao">Descrição:&nbsp;</span> Light</div>
+                    <div class="linha"><span class="descricao">Descrição:&nbsp;</span>Light</div>
                     <div class="linha"><span class="descricao">Cod. Base:&nbsp;</span>
                         <div id="copiar">13-0650</div>
                         <button class="btn-copiar">
