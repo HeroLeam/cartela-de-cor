@@ -819,7 +819,7 @@ var listaColecoes = [
   },
   {
     colecao: "inv25",
-    codigos: ["aznovo", "lrnovo1", "lrneonnovo", "mrnovo", "rsnovo1", "rsnovo2", "rsnovo3", "vdnovo"],
+    codigos: ["aznovo", "lrnovo", "lrneonnovo", "mrnovo", "rsnovo1", "rsnovo2", "rsnovo3", "vdnovo"],
   },
   {
     colecao: "colecao",
