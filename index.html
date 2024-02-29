@@ -12,7 +12,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.8/clipboard.min.js"></script>
     <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
@@ -74,21 +75,46 @@
                 </select>
             </div>
             <div>
-                <p class="limpar-filtros" onclick="limparFiltros()">Limpar filtros<span class="material-symbols-outlined">filter_alt_off</span></p>
+                <p class="limpar-filtros" onclick="limparFiltros()">Limpar filtros<span
+                        class="material-symbols-outlined">filter_alt_off</span></p>
             </div>
             <div>
                 <input type="text" id="searchInput" placeholder="Digite sua pesquisa..." oninput="search()">
             </div>
             <div class="footer">
-                <p>&copy; 2023. Todos os direitos reservados. <br><a href="https://heroleam.github.io/herofield" target="_blank">HeroLeam</a></p>
+                <p>&copy; 2023. Todos os direitos reservados. <br><a href="https://heroleam.github.io/herofield"
+                        target="_blank">HeroLeam</a></p>
             </div>
         </nav>
         <main>
             <div class="lista-cartela">
                 <div id="mensagem-erro" class="mensagem-erro">Nenhuma cor encontrada.</div>
 
-                <div class="cartela AZNOVO">
-                    <h2 class="codigo">AZNOVO</h2>
+                <div class="cartela AZNOVO1">
+                    <h2 class="codigo">AZNOVO1</h2>
+                    <div class="linha"><span class="descricao">Cor:&nbsp;</span>Azul</div>
+                    <div class="linha"><span class="descricao">Descrição:&nbsp;</span>Monalisa</div>
+                    <div class="linha"><span class="descricao">Cod. Base:&nbsp;</span>
+                        <div id="copiar">15-3915</div>
+                        <button class="btn-copiar">
+                            <img class="iconecopiar" src="./src/img/iconeCopiar.png" alt="" />
+                        </button>
+                    </div>
+                    <div class="linha"><span class="descricao">RGB:&nbsp;</span>165 - 179 - 204
+                    </div>
+                    <div class="linha"><span class="descricao">Hex:&nbsp;</span>#
+                        <div id="copiar">a5b3cc</div>
+                        <button class="btn-copiar">
+                            <img class="iconecopiar" src="./src/img/iconeCopiar.png" alt="" />
+                        </button>
+                    </div>
+                    <button class="btn-salvar" onclick="gerarimagem(this)">
+                        <img class="iconesalvar" src="./src/img/iconeSalvar.png" alt="">
+                    </button>
+                </div>
+
+                <div class="cartela AZNOVO2">
+                    <h2 class="codigo">AZNOVO2</h2>
                     <div class="linha"><span class="descricao">Cor:&nbsp;</span>Azul</div>
                     <div class="linha"><span class="descricao">Descrição:&nbsp;</span>Petróleo</div>
                     <div class="linha"><span class="descricao">Cod. Base:&nbsp;</span>
@@ -101,6 +127,29 @@
                     </div>
                     <div class="linha"><span class="descricao">Hex:&nbsp;</span>#
                         <div id="copiar">20495b</div>
+                        <button class="btn-copiar">
+                            <img class="iconecopiar" src="./src/img/iconeCopiar.png" alt="" />
+                        </button>
+                    </div>
+                    <button class="btn-salvar" onclick="gerarimagem(this)">
+                        <img class="iconesalvar" src="./src/img/iconeSalvar.png" alt="">
+                    </button>
+                </div>
+
+                <div class="cartela CZNOVO">
+                    <h2 class="codigo">CZNOVO</h2>
+                    <div class="linha"><span class="descricao">Cor:&nbsp;</span>Azul</div>
+                    <div class="linha"><span class="descricao">Descrição:&nbsp;</span>Petróleo</div>
+                    <div class="linha"><span class="descricao">Cod. Base:&nbsp;</span>
+                        <div id="copiar">19-0201</div>
+                        <button class="btn-copiar">
+                            <img class="iconecopiar" src="./src/img/iconeCopiar.png" alt="" />
+                        </button>
+                    </div>
+                    <div class="linha"><span class="descricao">RGB:&nbsp;</span>68 - 68 - 71
+                    </div>
+                    <div class="linha"><span class="descricao">Hex:&nbsp;</span>#
+                        <div id="copiar">444447</div>
                         <button class="btn-copiar">
                             <img class="iconecopiar" src="./src/img/iconeCopiar.png" alt="" />
                         </button>
@@ -156,8 +205,31 @@
                     </button>
                 </div>
 
-                <div class="cartela MRNOVO">
-                    <h2 class="codigo">MRNOVO</h2>
+                <div class="cartela MRNOVO1">
+                    <h2 class="codigo">MRNOVO1</h2>
+                    <div class="linha"><span class="descricao">Cor:&nbsp;</span>Marrom</div>
+                    <div class="linha"><span class="descricao">Descrição:&nbsp;</span>Cacau</div>
+                    <div class="linha"><span class="descricao">Cod. Base:&nbsp;</span>
+                        <div id="copiar">16-1439</div>
+                        <button class="btn-copiar">
+                            <img class="iconecopiar" src="./src/img/iconeCopiar.png" alt="" />
+                        </button>
+                    </div>
+                    <div class="linha"><span class="descricao">RGB:&nbsp;</span>95 - 76 - 64
+                    </div>
+                    <div class="linha"><span class="descricao">Hex:&nbsp;</span>#
+                        <div id="copiar">5f4c40</div>
+                        <button class="btn-copiar">
+                            <img class="iconecopiar" src="./src/img/iconeCopiar.png" alt="" />
+                        </button>
+                    </div>
+                    <button class="btn-salvar" onclick="gerarimagem(this)">
+                        <img class="iconesalvar" src="./src/img/iconeSalvar.png" alt="">
+                    </button>
+                </div>
+
+                <div class="cartela MRNOVO2">
+                    <h2 class="codigo">MRNOVO2</h2>
                     <div class="linha"><span class="descricao">Cor:&nbsp;</span>Marrom</div>
                     <div class="linha"><span class="descricao">Descrição:&nbsp;</span>Caramelo</div>
                     <div class="linha"><span class="descricao">Cod. Base:&nbsp;</span>
@@ -250,7 +322,7 @@
 
                 <div class="cartela VDNOVO">
                     <h2 class="codigo">VDNOVO</h2>
-                    <div class="linha"><span class="descricao">Cor:&nbsp;</span>Verde</div> 
+                    <div class="linha"><span class="descricao">Cor:&nbsp;</span>Verde</div>
                     <div class="linha"><span class="descricao">Descrição:&nbsp;</span>Coentro</div>
                     <div class="linha"><span class="descricao">Cod. Base:&nbsp;</span>
                         <div id="copiar">18-6011</div>

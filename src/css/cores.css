@@ -1,5 +1,13 @@
-.AZNOVO {
+.AZNOVO1 {
+  background-color: #a5b3cc;
+}
+
+.AZNOVO2 {
   background-color: #20495b;
+}
+
+.CZNOVO {
+  background-color: #444447;
 }
 
 .LRNOVO {
@@ -10,7 +18,11 @@
   background-color: #ffccb2;
 }
 
-.MRNOVO {
+.MRNOVO1 {
+  background-color: #5f4c40;
+}
+
+.MRNOVO2 {
   background-color: #c37c54;
 }
 
