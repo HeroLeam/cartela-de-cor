@@ -819,19 +819,7 @@ var listaColecoes = [
   },
   {
     colecao: "inv25",
-    codigos: [
-      "aznovo1",
-      "aznovo2",
-      "cznovo",
-      "lrnovo",
-      "lrneonnovo",
-      "mrnovo1",
-      "mrnovo2",
-      "rsnovo1",
-      "rsnovo2",
-      "rsnovo3",
-      "vdnovo",
-    ],
+    codigos: [],
   },
   {
     colecao: "colecao",
@@ -876,11 +864,11 @@ function filtrar() {
     if (
       descricaoTexto
         .normalize("NFD")
-        .replace(/[\u0300-\u036f]/g, "")
+        .replace(/[\u0300-\u036f]/g, ")
         .includes(filtroCor) ||
       corTexto
         .normalize("NFD")
-        .replace(/[\u0300-\u036f]/g, "")
+        .replace(/[\u0300-\u036f]/g, ")
         .includes(filtroCor)
     ) {
       correspondeFiltroCor = true;
@@ -901,7 +889,7 @@ function filtrar() {
       }
     }
 
-    if ((correspondeFiltroCor && filtroCor !== "") || filtroCor === "todas") {
+    if ((correspondeFiltroCor && filtroCor !== ") || filtroCor === "todas") {
       cartela.style.display = correspondeFiltroColecao ? "flex" : "none";
       exibeMensagemErro = false;
       if (correspondeFiltroColecao) {
@@ -925,7 +913,7 @@ function filtrar() {
 function limparFiltros() {
   document.getElementById("filtro-cores").value = "todas";
   document.getElementById("filtro-colecoes").value = "todas";
-  document.getElementById("searchInput").value = "";
+  document.getElementById("searchInput").value = ";
   filtrar();
 }
 

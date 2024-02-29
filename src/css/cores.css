@@ -1,55 +1,3 @@
-.AZNOVO1 {
-  background-color: #a5b3cc;
-}
-
-.AZNOVO2 {
-  background-color: #20495b;
-}
-
-.CZNOVO {
-  background-color: #444447;
-}
-
-.LRNOVO {
-  background-color: #da321c;
-}
-
-.LRNEONNOVO {
-  background-color: #ffccb2;
-}
-
-.MRNOVO1 {
-  background-color: #5f4c40;
-}
-
-.MRNOVO2 {
-  background-color: #c37c54;
-}
-
-.RSNOVO1 {
-  background-color: #de5b8c;
-}
-
-.RSNOVO2 {
-  background-color: #ce5e9a;
-}
-
-.RSNOVO3 {
-  background-color: #ad5e5e;
-}
-
-.VDNOVO {
-  background-color: #53665c;
-}
-
-
-
-
-
-
-
-
-
 .AM001 {
   background-color: #d5d716;
 }
@@ -258,6 +206,14 @@
   background-color: #a3bdd3;
 }
 
+.AZ016 {
+  background-color: #a5b3cc;
+}
+
+.AZ017 {
+  background-color: #20495b;
+}
+
 .AZ062 {
   background-color: #1f4477;
 }
@@ -450,6 +406,10 @@
   background-color: #928475;
 }
 
+.CZ003 {
+  background-color: #444447;
+}
+
 .CZ038 {
   background-color: #a3a9a6;
 }
@@ -570,6 +530,14 @@
   background-color: #ff8c54;
 }
 
+.LR008 {
+  background-color: #da321c;
+}
+
+.LR009 {
+  background-color: #ffccb2;
+}
+
 .LR047 {
   background-color: #d16f52;
 }
@@ -672,6 +640,14 @@
 
 .MR004 {
   background-color: #ad6d68;
+}
+
+.MR005 {
+  background-color: #c37c54;
+}
+
+.MR006 {
+  background-color: #5f4c40;
 }
 
 .MR034 {
@@ -796,6 +772,18 @@
 
 .RS019 {
   background-color: #ce8f8b;
+}
+
+.RS020 {
+  background-color: #de5b8c;
+}
+
+.RS021 {
+  background-color: #ce5e9a;
+}
+
+.RS022 {
+  background-color: #ad5e5e;
 }
 
 .RS037 {
@@ -1140,6 +1128,10 @@
 
 .VD018 {
   background-color: #aac0ad;
+}
+
+.VD019 {
+  background-color: #53665c;
 }
 
 .VD067 {
