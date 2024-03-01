@@ -819,7 +819,44 @@ var listaColecoes = [
   },
   {
     colecao: "inv25",
-    codigos: [],
+    codigos: [
+      "am003",
+      "am010",
+      "am901",
+      "az010",
+      "az016",
+      "az017",
+      "az384",
+      "az443",
+      "bc001",
+      "cm324",
+      "cz003",
+      "cz005",
+      "lr007",
+      "lr008",
+      "lr009",
+      "lr541",
+      "mc090",
+      "mc402",
+      "mc506",
+      "mr001",
+      "mr005",
+      "mr006",
+      "pt002",
+      "rs004",
+      "rs010",
+      "rs017",
+      "rs020",
+      "rs021",
+      "rs022",
+      "rs756",
+      "rx006",
+      "vd015",
+      "vd018",
+      "vd019",
+      "vd939",
+      "vm001",
+    ],
   },
   {
     colecao: "colecao",
@@ -838,7 +875,6 @@ function atualizarContador() {
   contador.innerText = cartelas.length.toString();
 }
 
-// Função para filtrar as cartelas
 function filtrar() {
   var filtroCor = document.getElementById("filtro-cores").value.toLowerCase();
   var filtroColecao = document.getElementById("filtro-colecoes").value;
@@ -864,11 +900,11 @@ function filtrar() {
     if (
       descricaoTexto
         .normalize("NFD")
-        .replace(/[\u0300-\u036f]/g, ")
+        .replace(/[\u0300-\u036f]/g, "")
         .includes(filtroCor) ||
       corTexto
         .normalize("NFD")
-        .replace(/[\u0300-\u036f]/g, ")
+        .replace(/[\u0300-\u036f]/g, "")
         .includes(filtroCor)
     ) {
       correspondeFiltroCor = true;
@@ -889,7 +925,7 @@ function filtrar() {
       }
     }
 
-    if ((correspondeFiltroCor && filtroCor !== ") || filtroCor === "todas") {
+    if ((correspondeFiltroCor && filtroCor !== "") || filtroCor === "todas") {
       cartela.style.display = correspondeFiltroColecao ? "flex" : "none";
       exibeMensagemErro = false;
       if (correspondeFiltroColecao) {
@@ -909,13 +945,11 @@ function filtrar() {
   }
 }
 
-// Função para limpar os filtros
 function limparFiltros() {
   document.getElementById("filtro-cores").value = "todas";
   document.getElementById("filtro-colecoes").value = "todas";
-  document.getElementById("searchInput").value = ";
+  document.getElementById("searchInput").value = "";
   filtrar();
 }
 
-// Evento DOMContentLoaded para chamar a função de atualizar o contador
 document.addEventListener("DOMContentLoaded", atualizarContador);
