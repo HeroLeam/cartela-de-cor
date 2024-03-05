@@ -45,7 +45,7 @@ footer {
   text-align: center;
 }
 
-#contador{
+#contador {
   font-weight: 700;
 }
 
@@ -116,6 +116,13 @@ footer {
   font-size: 16px;
 }
 
+.infoPesquisa {
+  margin: 0px 10px 10px;
+  font-size: 0.8em;
+  color: #888;
+  text-align: center;
+}
+
 .mensagem-erro {
   display: none;
   justify-content: center;
@@ -163,13 +170,17 @@ footer {
   font-weight: bold;
 }
 
+.iconecopiar {
+  width: 16px;
+}
+
 .btn-copiar {
+  margin: 10px;
+  position: absolute;
+  right: 0;
   background: none;
   border: none;
   cursor: pointer;
-  position: absolute;
-  right: 0;
-  margin: 10px;
 }
 
 .btn-copiar:hover {
@@ -177,24 +188,6 @@ footer {
 }
 
 .btn-copiar:active {
-  transform: scale(1);
-}
-
-.iconecopiar {
-  width: 18px;
-}
-
-.btn-salvar {
-  cursor: pointer;
-  background: none;
-  border: none;
-}
-
-.btn-salvar:hover {
-  transform: scale(1.2);
-}
-
-.btn-salvar:active {
   transform: scale(1);
 }
 
@@ -206,11 +199,52 @@ footer {
   margin-top: 15px;
 }
 
+.btn-salvar {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-salvar:hover {
+  transform: scale(1.2);
+}
+
+.btn-salvar:active {
+  transform: scale(1);
+}
+
 .footer-container {
   max-width: 960px;
   margin: 0 auto;
   margin-bottom: 10px;
 }
+
+.info {
+  margin: 20px;
+  padding: 10px;
+  border: 1px dashed #888;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #888;
+}
+
+.info>div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info>div>img {
+  height: 20px;
+  margin-right: 10px;
+}
+
+.info>p {
+  margin: 0;
+  width: 100%;
+}
+
 
 .footer {
   margin-top: 20px;
