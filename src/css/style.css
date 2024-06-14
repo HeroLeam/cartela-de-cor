@@ -20,14 +20,9 @@ header {
   display: flex;
 }
 
-nav {
-  margin: 10px 10px 0 20px;
-}
-
-nav>div>select,
-nav>div>p,
-nav>div>input {
-  width: 250px;
+nav>div,nav>div>input {
+  width: 280px;
+  margin: 10px;
 }
 
 main {
@@ -57,7 +52,6 @@ footer {
 }
 
 .filtro-container {
-  display: flex;
   align-items: center;
 }
 
@@ -66,6 +60,7 @@ footer {
 }
 
 #filtro-cores {
+  width: 100%;
   margin: 10px;
   padding: 8px;
   border-radius: 4px;
@@ -74,6 +69,7 @@ footer {
 }
 
 #filtro-colecoes {
+  width: 100%;
   margin: 10px;
   padding: 8px;
   border-radius: 4px;
